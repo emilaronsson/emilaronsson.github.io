@@ -1,0 +1,50 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    
+    
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    border-radius: 20px;
+    margin: 5px;
+    width: 60%;
+    justify-content: space-around;
+}
+
+section { 
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    border-radius: 20px;
+    align-self: center;
+    margin: 5px;
+    width: 60%;
+}
+
+
+
+@media (max-width: 800px) {
+    #profilbild {
+        display: none;
+    }
+   
+}
+@media (min-width: 1000px) {
+    #profilbild{
+        height: 300px;
+    }
+}
